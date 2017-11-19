@@ -1,0 +1,24 @@
+<div class="container" *ngIf='blog' xmlns="http://www.w3.org/1999/html">
+
+  <h4 class="panel-heading">
+    {{blog.blogTitle}}
+  </h4>
+
+  <div>
+    <img id="blogImage" [src]='blog.imageURL'><br>
+    <p>{{blog.blogFullDescription}}</p><br>
+    <div>
+      <b>Posted By: {{blog.postedBy}}</b>
+      <i style="padding: 4px">on {{blog.postedDate | date : 'mediumDate'}}</i>
+    </div>
+  </div>
+
+  <!--<div style="padding: 6px">-->
+  <!--<a class='btn btn-primary' (click)="onBack()" style="width:100px">-->
+  <!--<i class="material-icons">arrow_back</i>-->
+  <!--</a>-->
+  <!--<div>-->
+  <br><div></div>
+
+
+</div>

@@ -1,0 +1,265 @@
+{
+  "blogsdata": [
+    {
+      "id": 1,
+      "blogTitle": "This Is How To Get The Best Out Of Front-End Components",
+      "postedBy": "Fagner Brack",
+      "blogShortDescription": "It all depends on how you look at them ",
+      "blogFullDescription": "A Front-End component can be expressed as a rendering function that accepts attributes and produces a visual representation to the user.In HTML, the component rendering is declared through an HTML Element which uses the browser to produce the visual representation to the user. The HTML Element can contain attributes. In React, the component rendering is declared using JavaScript which manipulates the DOM to output HTML, which allows the browser to provide the final visual representation to the user. The attributes are named props.",
+      "imageURL": "./assets/frontendworld.jpeg",
+      "category": "technology",
+      "favourite": false,
+      "postedDate": "10/11/2017"
+    },
+    {
+      "id": 2,
+      "blogTitle": "Where Self-Driving Cars Go to Learn",
+      "postedBy": "Cecilia Kang",
+      "blogShortDescription": "Arizona’s promise to keep the driverless car industry free of regulations has attracted dozens of companies, including Uber, Waymo and Lyft. ",
+      "blogFullDescription": "Three weeks into his new job as Arizona’s governor, Doug Ducey made a move that won over Silicon Valley and paved the way for his state to become a driverless car utopia.It was January 2015, and the Phoenix area was about to host the Super Bowl. Ducey learned that a local regulator was planning a sting on Lyft and Uber drivers to shut down the ride-hailing services for operating illegally. Ducey, a Republican who was the former chief executive of the ice cream chain Cold Stone Creamery, was furious.“It was the exact opposite message we should have been sending,” Ducey said in an interview. “We needed our message to Uber, Lyft and other entrepreneurs in Silicon Valley to be that Arizona was open to new ideas.” If the state had a slogan, he added, it would include the words “open for business.”Ducey fired the regulator who hatched the idea of going after ride-hailing drivers and shut down the entire agency, the Department of Weights and Measures. By April 2015, Arizona had legalized ride-sharing.",
+      "imageURL": "./assets/tesla.jpg",
+      "category": "technology",
+      "favourite": false,
+      "postedDate": "07/11/2017"
+    },
+    {
+      "id": 3,
+      "postedBy": "Sean, The Ecnomist",
+      "blogTitle": "Broadcom offers $105 billion for Qualcomm in landmark deal",
+      "blogShortDescription": "Broadcom’s $130bn Qualcomm bid highlights a ruthless chip industry",
+      "blogFullDescription": "At first glance the chip business and the Serengeti appear to have little in common. But both are arenas where large predators hungrily stalk big game. On November 6th Broadcom announced its intention to buy its rival, Qualcomm, for around $130bn, including debt. If successful, it would be the largest deal in the history of the technology business (see table).And like the African plains, the semiconductor industry supports a complex food chain with different species of chipmakers hunting each other. Qualcomm is already trying to swallow another chip firm, NXP, from the Netherlands, in a deal worth $47bn. In 2015 NXP, which makes chips for automobiles and other markets, itself completed a merger with Freescale, another large chip company. Meanwhile, Broadcom has become the world’s fifth-largest semiconductor firm by snapping up rivals. It has pulled off five big acquisitions since 2013 and is seeking approval for its $5.9bn bid for Brocade, yet another semiconductor company. If it successfully ingests Qualcomm, the combined group would become the world’s third-largest chipmaker, behind only Intel and Samsung Electronics, and a dominant supplier of many components in smartphones.",
+      "imageURL": "./assets/qualcomm.jpeg",
+      "category": "Business",
+      "favourite": false,
+      "postedDate": "09/11/2017"
+    },
+    {
+      "id": 4,
+      "postedBy": "Paul Cantor",
+      "blogTitle": "What Is The Real Reason Why You Write?",
+      "blogShortDescription": "Is it money, fame or something else that drives you?",
+      "blogFullDescription": "For years, I often struggled telling people why, exactly, I wrote.Because it seemed as if I had no real good reason, no strong, declarative purpose, for putting pen to paper, fingers to keyboard, voice to notes, and all that jazz.I was, you could say, directionless.And there were years I wrote a little and years I wrote a lot — depending on the money, of course. Back then, that’s all I think I was in it for. The money. There wasn’t a ton but there certainly was some; it was easy work too, so it was, well… easy money.But then the money went away and the people went away too, because that’s who I wrote about — people, mostly entertainers — and still, I was left every day with a blank page. A blank page that kept calling me back, asking for my thoughts on this subject or that.And I began filling up those pages, then after they were filled, putting them out into the world. Some were read, some were not, but through it all, the words kept coming.During this time — really, not all that long ago — I attained some renown, a kind of renown that previously had eluded me. And there was no money, or if there was, perhaps only a little of it; but then, too, there was occasionally a lot of it.And I felt freed then, freer than I had ever been before.Because it was then that I realized it wasn’t about the money and it wasn’t about the people. It wasn’t even about the renown, although I admit that it certainly helped, and when there are low moments, and there is no money, and there are no people, the renown can certainly get you through it.No, what i realized was that when everything and everyone was gone, and I was alone, all that I had, even when I had nothing, were the thoughts in my head and the pen and the pad. And through that, whether I was shackled in a cell, shackled in the prison of my own mind, or even worse, shackled by the constraints modern society often throws around us, through writing, I could be free.I write so I can be free. ",
+      "imageURL": "./assets/writingblog.jpeg",
+      "category": "Creativity",
+      "favourite": false,
+      "postedDate": "10/11/2017"
+    },
+    {
+      "id": 5,
+      "postedBy": "Ben Sears",
+      "blogTitle": "5 Ways to be a better Freelancer",
+      "blogShortDescription": "Being a freelancer is not easy",
+      "blogFullDescription": "The typical freelancer sales pipeline looks something like this:A potential customer contacts you about a projectYou have meetings with them to discuss their use caseYou send them a proposal based on your ballpark estimatesOnce they accept, work beginsHow it should be:A potential customer goes to your site and sees the services you provideThey purchase your service from the website directly\n Work beginsSelling a service with the same methods you would use to sell a product is called productization. Productization works to benefit both the freelancer and the customer; the freelancer gets paid immediately, the work to be done is clearly defined, the friction involved with payment is removed, and the customer can easily purchase more work if they were satisfied with the service.",
+      "imageURL": "./assets/freelancing.png",
+      "category": "freelancing",
+      "favourite": true,
+      "postedDate": "10/13/2017"
+    },
+    {
+      "blogTitle": "How can we overcome the post travelling depression? What does it feel like to come home?",
+      "category": "travel",
+      "blogShortDescription": "And how we can bring the lessons we learned with us.",
+      "blogFullDescription": "Over a year ago, I left my country (the Netherlands) with my backpack to go and live the vanlife in New Zealand. I have been travelling for thirteen months. Three weeks ago, Air Asia brought me back to Amsterdam.After this amazing experience, I was looking forward to seeing everyone again. Friends, family, places. My nephew was born. So exciting!I read a lot about coming home after travelling, so back in New Zealand, I had mentally prepared myself. ‘I know who I am and what I want’, I thought. The new me was ready to be home again.I had a plan, sort of.It was amazing to see my friends and family again. I was happy, they were happy, everybody was happy.After a couple of weeks, the post travelling depression kicked in…The jetlag was brutal, but apart from that, something else happened. I was lying on the couch for no reason, got nauseous for no reason, had no energy for no reason…Until I realised, ‘the reason’ was some sort of post travelling depression.‘How will I ever be happy here?’, I suddenly thought.",
+      "imageURL": "./assets/travel.jpeg",
+      "favourite": false,
+      "postedBy": "varun",
+      "postedDate": 1510840823205,
+      "id": 16
+    },
+    {
+      "blogTitle": "Snapchat’s New Test: Grow Like Facebook, Without the Baggage",
+      "category": "business",
+      "blogShortDescription": "Under pressure from investors, Snap is making radical changes. Can it emulate Facebook without losing its innovative spirit?",
+      "blogFullDescription": "Under pressure from investors, Snap is making radical changes. Can it emulate Facebook without losing its innovative spirit?By Kevin RooseIn today’s social media industry, you essentially have two options: Die young, or live long enough to turn into…",
+      "imageURL": "./assets/business.jpeg",
+      "favourite": false,
+      "postedBy": "varun",
+      "postedDate": 1510901898496,
+      "id": 12
+    },
+    {
+      "blogTitle": "How Leaving Social Media Affects Your Mind,",
+      "category": "entertainment",
+      "blogShortDescription": "Does it make you happier? I don’t know",
+      "blogFullDescription": "About four months ago I quit Facebook and Instagram after a big job I was up for didn’t pan out. Two months later, I left Twitter.The first thing I noticed after I unplugged Twitter was that online ads unplugged from me. It was an overnight change. One day I was seeing Amazon book deals and food…",
+      "imageURL": "./assets/startup.jpeg",
+      "favourite": false,
+      "postedBy": "shivam",
+      "postedDate": 1510902377614,
+      "id": 13
+    },
+    {
+      "blogTitle": "Marketing Is Not About Your Company’s Values",
+      "category": "entrepreneurship",
+      "blogShortDescription": "It’s about your customer’s values — and aspirations,",
+      "blogFullDescription": "Marketing is really about how customer values translate into aspirations, insecurities, fears and motivations.\nTwenty years ago, in 1997, Steve Jobs told us,“Marketing is about values”He was right, of course. He was right about a lot of things, and marketing in particular was where he ruled. He was right in that the way to talk about a brand is “not to talk about speeds and fees” or “bits and mega-hertz” or “why we are better than windows.” He was right that marketing is about benefits, not features. And he was right when he said,“Our customers want to know who is Apple and what is it that we stand for?”\n All true.But what he didn’t explicitly say is that customers only want to know “what a company stands for” as it relates back to them.Marketing, at the end of the day, is not just about a company’s values — it’s about understanding what these mean to a customer, and getting that meaning to be felt strongly enough that they buy.Now, the real mastery of Jobs is that he almost certainly knew this, consciously or subconsciously. He almost certainly knew full well that people care more about themselves than Apple — and he also almost certainly knew full well that that speech he gave was not talking about marketing. It was marketing.",
+      "imageURL": "./assets/marketing.png",
+      "favourite": false,
+      "postedBy": "shivam",
+      "postedDate": 1510902620191,
+      "id": 15
+    },
+    {
+      "blogTitle": "test2131",
+      "category": "culture",
+      "blogShortDescription": "fjadskf",
+      "blogFullDescription": "sfdahkjf",
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedBy": "shivam",
+      "postedDate": 1510902620191,
+      "id": 24
+    },
+    {
+      "blogTitle": null,
+      "category": null,
+      "blogShortDescription": null,
+      "blogFullDescription": null,
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedBy": "satyam",
+      "postedDate": 1511005789122,
+      "id": 25
+    },
+    {
+      "blogTitle": "test7777(edited by using put)",
+      "category": "technology",
+      "blogShortDescription": "technology",
+      "blogFullDescription": "hdjsalhlaks",
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedDate": 1511006071384,
+      "id": 26
+    },
+    {
+      "blogTitle": "testing for updation (put) edited one ",
+      "category": null,
+      "blogShortDescription": "edited bjkahsdfkjnow",
+      "blogFullDescription": "now",
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedDate": 1511007420285,
+      "id": 27
+    },
+    {
+      "blogTitle": "testing for post updated now noew",
+      "category": null,
+      "blogShortDescription": "testkjlkasdjfs",
+      "blogFullDescription": "jksdfkjsdsdahfl",
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedDate": 1511007763983,
+      "id": 28
+    },
+    {
+      "blogTitle": "testing for post complete (edited now)",
+      "category": null,
+      "blogShortDescription": null,
+      "blogFullDescription": null,
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedDate": 1511006837008,
+      "id": 29
+    },
+    {
+      "blogTitle": "now for testing eupodate bowdsjsklja",
+      "category": null,
+      "blogShortDescription": null,
+      "blogFullDescription": null,
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedDate": 1511007927674,
+      "id": 30
+    },
+    {
+      "blogTitle": "123312 edited",
+      "category": null,
+      "blogShortDescription": "shasddsafdsfdas",
+      "blogFullDescription": "dasdas edit",
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedDate": 1511008743843,
+      "id": 31
+    },
+    {
+      "blogTitle": "67868345 updated",
+      "category": "technology ",
+      "blogShortDescription": "jaksdksda edit",
+      "blogFullDescription": "fsgsdfg edit",
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedDate": 1511008963274,
+      "id": 32
+    },
+    {
+      "blogTitle": "73849798534789347 updated",
+      "category": null,
+      "blogShortDescription": "dhajgjf updated",
+      "blogFullDescription": "hjlkhsdafas  updated",
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedDate": 1511009476114,
+      "id": 33
+    },
+    {
+      "blogTitle": "6794835698324y98 updated ",
+      "category": "technology ",
+      "blogShortDescription": "kjkfasbdmf updated",
+      "blogFullDescription": "kjajkfdfkjas updated",
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedDate": 1511009581803,
+      "id": 34
+    },
+    {
+      "blogTitle": "43876872634769 updated",
+      "category": "technology ",
+      "blogShortDescription": "jhvjhvsadj updated",
+      "blogFullDescription": "kjhjkasdfskj updated",
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedDate": 1511009824803,
+      "id": 35
+    },
+    {
+      "blogTitle": "trwetewry4635465  updated",
+      "category": "technology ",
+      "blogShortDescription": "ykdsf updated",
+      "blogFullDescription": "fds updated",
+      "imageURL": "./assets/default.jpg",
+      "favourite": false,
+      "postedBy": "satyam",
+      "postedDate": 1511009972690,
+      "id": 36
+    }
+  ],
+  "usersdata": [
+    {
+      "id": "satyam",
+      "password": "1234",
+      "favorites": [
+        "12",
+        "2",
+        "5"
+      ],
+      "loginstatus": "false"
+    },
+    {
+      "id": "shivam",
+      "password": "4321",
+      "favorites": [
+        "2",
+        "1"
+      ],
+      "loginstatus": "false"
+    },
+    {
+      "id": "varun",
+      "password": "1234",
+      "favorites": [
+        "3"
+      ],
+      "loginstatus": "false"
+    }
+  ]
+}

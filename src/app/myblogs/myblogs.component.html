@@ -1,0 +1,63 @@
+<ul class="grid" *ngFor="let blog of myblogs;let i =index ">
+  <li class="col s-4" style="float: left">
+    <div class="card" *ngIf="blog.postedBy===id" style="margin: 30px">
+      <div class="card-image waves-effect waves-block waves-light">
+        <a [routerLink]="['/dashboard/',blog.postedBy,blog.id]"> <img class="activator" [src]='blog.imageURL'
+                                                                      style="width: 380px;height: 200px"></a>
+      </div>
+      <div>
+        <span class="card-title activator grey-text text-darken-4"><b>{{blog.blogTitle}}</b></span>
+        <p id="blogshortdescription">{{blog.blogShortDescription}} </p>
+        <p id="postedby">{{blog.postedBy}} </p>
+        <p id="date">{{blog.postedDate | date:'mediumDate'}} </p>
+        <div>
+          <a [routerLink]="['/dashboard',blog.postedBy,blog.id,'edit']"><i class="material-icons"  style="margin-left:320px;padding: 5px">edit</i></a>
+          <i class="material-icons" (click)="deleteblog(blog.id,i)" style="float: right;padding: 5px">delete</i>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>
+<p *ngIf="activeUser" style="alignment: center">No blogs yet</p>
+
+<!--<div id="myModal" class="modal fade" role="dialog">-->
+  <!--<div class="modal-dialog">-->
+
+    <!--&lt;!&ndash; Modal content&ndash;&gt;-->
+    <!--<div class="modal-content">-->
+      <!--<div class="modal-header">-->
+        <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+        <!--<h4 class="modal-title">Update Blog</h4>-->
+      <!--</div>-->
+      <!--<div class="modal-body">-->
+        <!--<form id="login-form">-->
+          <!--<div class="modal-body">-->
+            <!--<input id="titleid" type="text" placeholder="Title" style="color: white" [(ngModel)]="title">-->
+            <!--<input id="categoryid" type="text" placeholder="Category" style="color: white;padding: 2px" [(ngModel)]="category">-->
+            <!--<input id="subjectid" type="text" placeholder="Subject" style="color: white;padding: 2px" [(ngModel)]="subject">-->
+            <!--<textarea id="descriptionid"  placeholder="Description" style="color: white;height: 200px;padding: 5px"-->
+                      <!--[(ngModel)]="description"></textarea>-->
+          <!--</div>-->
+
+          <!--&lt;!&ndash;<div class="modal-footer">&ndash;&gt;-->
+            <!--&lt;!&ndash;<div>&ndash;&gt;-->
+              <!--&lt;!&ndash;<button type="submit" class="btn btn-primary btn-lg btn-block">Update</button>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+          <!--&lt;!&ndash;</div>&ndash;&gt;-->
+        <!--&lt;!&ndash;</form>&ndash;&gt;-->
+      <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+  <!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<script>&ndash;&gt;-->
+  <!--&lt;!&ndash;$(document).ready(function() {&ndash;&gt;-->
+    <!--&lt;!&ndash;$(".btn btn-info btn-lg .edit-modal").click(function () {&ndash;&gt;-->
+
+      <!--&lt;!&ndash;alert("Hlo");&ndash;&gt;-->
+    <!--&lt;!&ndash;});&ndash;&gt;-->
+  <!--&lt;!&ndash;});&ndash;&gt;-->
+  <!--&lt;!&ndash;</script>&ndash;&gt;-->

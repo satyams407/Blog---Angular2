@@ -1,0 +1,29 @@
+<nav id="navbar">
+  <div class="nav-wrapper">
+    <ul id="nav-mobile1" class="left hide-on-med-and-down">
+      <li style="padding-left: 50px"><a [routerLink]="['/aboutus']">About Me</a></li>
+    </ul>
+    <h4 class="brand-logo center">Tech Blog</h4>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li *ngIf="isLogIn()=='false'" style="padding-right: 50px"><a [routerLink]="['/signin']">Sign in</a></li>
+      <li *ngIf="isLogIn()=='true'"><a (click)=Logout()>Sign out</a></li>
+    </ul>
+  </div>
+</nav>
+
+<nav id="navbar1">
+  <div>
+    <a id='homelink' [routerLink]="['/welcome']" (click)="(getCategory('home'))">Home</a>
+    <ul id="nav-mobile2" class="left hide-on-med-and-down">
+      <li><a (click)="(getCategory('technology'))">Technology</a></li>
+      <li><a (click)="(getCategory('entrepreneurship'))">Entrepreneurship</a></li>
+      <li><a (click)="(getCategory('business'))">Business</a></li>
+      <li><a (click)="(getCategory('freelancing'))">Freelancing</a></li>
+      <li><a (click)="(getCategory('culture'))">Culture</a></li>
+      <li><a (click)="(getCategory('entertainment'))">Entertainment</a></li>
+      <li><a (click)="(getCategory('travel'))">Travel</a></li>
+    </ul>
+  </div>
+</nav>
+
+

@@ -1,0 +1,32 @@
+<div style="margin-left: 40px;margin-right: 40px">
+
+  <div>
+    <p class="flow-text">Welcome, {{currentUser}}</p>
+  </div>
+
+  <div class="row">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="tab col s3" (click)="getSelectedTab('allblogstab')"><a>All blogs</a></li>
+        <li class="tab col s3" (click)="getSelectedTab('myblogstab')"><a>My Blogs</a></li>
+        <li class="tab col s3" (click)="getSelectedTab('myposttab')"><a>Create Blog</a></li>
+        <li class="tab col s3" (click)="getSelectedTab('myfavoritetab')"><a>My Favorites Blog</a></li>
+      </ul>
+    </div>
+
+    <div *ngIf="allblogstab()" class="col s12">
+      <app-blogfeeds></app-blogfeeds>
+    </div>
+    <div *ngIf="myblogstab()" class="col s12">
+      <app-myblogs></app-myblogs>
+    </div>
+    <div *ngIf="myposttab()" class="col s12">
+      <app-postblog></app-postblog>
+    </div>
+    <div *ngIf="myfavoritetab()" class="col s12">
+      <app-favoritesblog></app-favoritesblog>
+    </div>
+
+
+  </div>
+</div>

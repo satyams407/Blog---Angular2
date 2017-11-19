@@ -1,0 +1,17 @@
+#blogshortdescription {
+  padding: 4px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, .8);
+}
+
+#postedby {
+  margin-left: 4px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, .7);
+}
+
+#date {
+  margin-left: 4px;
+  font-size: 10px;
+  color: rgba(0, 0, 0, .6);
+}

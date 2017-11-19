@@ -1,0 +1,49 @@
+<div id="postblog">
+  <div *ngIf="!fromUpdate">
+    <input id="titleid" type="text" value="title" placeholder="Title" style="color: white" [(ngModel)]="title">
+    <input id="categoryid" type="text" placeholder="Category" style="color: white;padding: 2px" [(ngModel)]="category">
+
+    <input id="subjectid" type="text" placeholder="Subject" style="color: white;padding: 2px" [(ngModel)]="subject">
+    <textarea id="descriptionid"  placeholder="Description" style="color: white;height: 200px;padding: 5px"
+              [(ngModel)]="description"></textarea>
+    <input id="postedbyid" type="text" placeholder="Author" style="color: white;padding: 2px"  [(ngModel)]="postedBy">
+    <div class="file-field input-field">
+      <div class="btn" id="uploadImage">
+        <span>Upload Image </span>
+        <input type="file" [(ngModel)]="image">
+      </div>
+      <div class="file-path-wrapper">
+        <input id='image' class="file-path validate" type="text">
+      </div>
+    </div>
+
+    <input  id="submitbutton" class="btn" type="button" value="Submit"
+           (click)="postblog(title,category,subject,description,postedBy,image)">
+
+  </div>
+
+  <div *ngIf="fromUpdate">
+    <input id="titleupid" type="text" value="{{upatedtitle}}" style="color: white" [(ngModel)]="title">
+    <input id="categoryupid" type="text" value="{{upatedcategory}}"style="color: white;padding: 2px" [(ngModel)]="category">
+
+    <input id="subjectupid" type="text" value="{{upatedsubject}}" style="color: white;padding: 2px" [(ngModel)]="subject">
+    <textarea id="descriptionupid"  value="{{upateddescription}}" style="color: white;height: 200px;padding: 5px"
+              [(ngModel)]="description"></textarea>
+
+    <input id="postedbyupid" type="text" placeholder="author" style="color: white;padding: 2px" [(ngModel)]="postedBy">
+    <div class="file-field input-field">
+      <div class="btn" id="updateuploadimage">
+        <span>Upload Image </span>
+        <input type="file" [(ngModel)]="upimage">
+      </div>
+      <div class="file-path-wrapper">
+        <input id='updatedimage' class="file-path validate" type="text">
+      </div>
+    </div>
+
+    <input *ngIf="fromUpdate" id="updatebutton" class="btn" type="button" value="Update"
+           (click)="postblog(title,category,subject,description,postedBy,upimage)">
+  </div>
+
+</div>
+

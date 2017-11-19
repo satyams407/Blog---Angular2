@@ -1,0 +1,15 @@
+<ul class="grid" *ngFor="let blog of myfavoriteblogs" >
+  <li class="col s-4" style="float: left">
+    <div class="card" *ngIf="checkid(blog.id)" style="margin: 30px;width:400px">
+      <div class="card-image waves-effect waves-block waves-light">
+        <a [routerLink]="['/dashboard/',blog.postedBy,blog.id]">  <img class="activator" [src]='blog.imageURL' style="width: 400px;height: 200px"></a>
+      </div>
+      <div>
+        <span class="card-title activator grey-text text-darken-4"><b>{{blog.blogTitle}}</b></span>
+        <p id="blogshortdescription">{{blog.blogShortDescription}} </p>
+        <p id="postedby">{{blog.postedBy}} </p>
+        <p id="date">{{blog.postedDate | date:'mediumDate'}} </p>
+      </div>
+    </div>
+  </li>
+</ul>

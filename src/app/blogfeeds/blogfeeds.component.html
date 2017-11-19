@@ -1,0 +1,29 @@
+<input type="text" placeholder="Search Blog (by Title)"
+       style="width:1050px;margin-right: 40px;margin-left:40px;margin-top: 5px"
+       [(ngModel)]='listFilter'>
+
+<div class="row">
+  <div class="card" *ngFor="let blog of filteredBlogsbyTitle" style="margin: 30px">
+
+    <div class="col s4" *ngIf="blog.category==category() || category()=='home'">
+      <div class="card-image waves-effect waves-block waves-light">
+        <a [routerLink]="['/welcome',blog.id]"> <img class="activator" [src]='blog.imageURL'
+                                                     style="width: 400px;height: 200px"></a>
+      </div>
+      <div>
+        <span class="card-title activator grey-text text-darken-4 "
+              style="margin-left: 4px"><b>{{blog.blogTitle}}</b></span>
+        <p id="postedby">{{blog.postedBy}} </p>
+
+        <div>
+          <p id="date">{{blog.postedDate | date:'mediumDate'}} </p>
+          <div *ngIf="islogin()=='true' ">
+            <i *ngIf="blog.favourite" class="material-icons" (click)="removefromfavorite(blog)">favorite</i>
+            <i *ngIf="!blog.favourite" class="material-icons" (click)="addtofavorite(blog)">favorite_border</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,26 @@
+<div id="form">
+  <div id="login">
+    <h1 id="heading">Sign In!</h1>
+
+    <div class="form-group">
+      <label style="color: white">
+        User Name<span>*</span>
+      </label>
+      <input type="text" required autocomplete="off" [(ngModel)]="username"/>
+    </div>
+
+    <div class="form-group">
+      <label style="color: white">
+        Password<span>*</span>
+      </label>
+      <input type="password" required autocomplete="off" [(ngModel)]="password"/>
+    </div>
+
+    <div>
+      <input  id="signinbutton" type="button"  value="Signin" (click)=checkUser(username,password)>
+
+      <p *ngIf='!isValidUser' style="color: red;font-size: 14px">*Please enter valid username or password</p>
+    </div>
+
+  </div>
+</div>

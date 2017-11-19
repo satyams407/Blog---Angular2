@@ -1,0 +1,22 @@
+#navbar{
+  background-color: rgba(0,0,0,0.8);
+  width:auto;
+  height: 70px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+#navbar1{
+  background-color: rgba(0,0,0,0.7);
+  width:auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+#homelink{
+  float: left;
+  padding-right: 10px;
+  margin-left: 140px;
+}
