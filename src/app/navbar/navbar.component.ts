@@ -42,7 +42,7 @@ export class NavbarComponent implements OnInit {
     //   this.check=false;
     // }
     //  this._userservice.updateUser(this.activeUser).subscribe();
-    location.reload();
+    // location.reload();
     localStorage.setItem("isLoggedIn", "false");
     this._router.navigate(['/welcome']);
   }
